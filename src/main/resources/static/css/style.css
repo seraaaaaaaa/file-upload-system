@@ -1,0 +1,53 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.dropzone {
+    min-height: 100px;
+    border: 2px dashed rgb(0 0 0 / 13%);
+    background: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.dz-message{color: #6c757d;}
+
+table td:last-child{white-space: nowrap;width: 1%;}
+
+.btn{padding-left: 20px;padding-right: 20px;letter-spacing: .4;}
+
+.list-group-item{font-size: 14px;}
+.list-group-item-action{cursor: pointer;border: none;margin-top: 4px;border-radius: 8px;}
+.list-group-active{font-weight: bold;background-color: #f1f2f3; color: #41464b;cursor: not-allowed !important;}
+
+.btn-outline-grey{border-radius: 4px;border: 1px solid #dee2e6;padding: 6px 16px;background-color: transparent;font-size: 15px; color: #41464b;}
+.btn-outline-grey:hover{background-color: #f4f4f4;border: 1px solid #d4d4d4;}
+
+.iconBtn:hover{
+    background-color: #e9ecef;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text-clip{
+    white-space: nowrap; 
+    width: 240px;   
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.iconBtn{padding: 4px 8px;}
+
+.cursor-pointer{cursor: pointer;}
+.cursor-pointer:hover{opacity: 0.8;}
+
+#fileSection {
+    max-height: 350px;  
+    overflow-y: auto; /* Enable vertical scrolling */
+} 
+
+.uploadResult {
+    max-height: calc(100vh - 450px);  
+    overflow-y: auto; 
+} 
