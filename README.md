@@ -6,3 +6,4 @@ A file management system built with Spring Boot REST API, AJAX, and jQuery. User
 ## Tech Stack
 - Backend: Spring Boot (REST API)
 - Frontend: jQuery, Bootstrap, Dropzone.js, Cropper.js, Bootbox.js, FontAwesome
+- Database: H2
